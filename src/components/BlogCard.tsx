@@ -1,5 +1,6 @@
 
-import { BlogPost, getAuthorById } from "@/data/blogData";
+import { BlogPost } from "@/data/blogTypes";
+import { getAuthorById } from "@/data/authors";
 import { formatDistanceToNow } from "date-fns";
 import { Link } from "react-router-dom";
 import { cn } from "@/lib/utils";

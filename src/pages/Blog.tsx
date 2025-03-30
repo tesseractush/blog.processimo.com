@@ -1,7 +1,7 @@
 
 import { useState } from "react";
 import { BlogCard } from "@/components/BlogCard";
-import { blogPosts } from "@/data/blogData";
+import { blogPosts } from "@/data/blogRegistry";
 
 const TAGS = Array.from(new Set(blogPosts.flatMap(post => post.tags))).sort();
 

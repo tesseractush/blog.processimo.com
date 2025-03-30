@@ -18,7 +18,6 @@ marked.setOptions({
   gfm: true,
   breaks: true,
   pedantic: false,
-  sanitize: false,
   smartLists: true,
   smartypants: true,
   highlight: function (code, language) {

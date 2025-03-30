@@ -1,5 +1,6 @@
 
-import { BlogPost, getAuthorById } from "@/data/blogData";
+import { BlogPost } from "@/data/blogTypes";
+import { getAuthorById } from "@/data/authors";
 import { MarkdownRenderer } from "./MarkdownRenderer";
 import { formatDistanceToNow } from "date-fns";
 import { ShareButtons } from "./ShareButtons";

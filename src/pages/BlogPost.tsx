@@ -1,7 +1,7 @@
 
 import { useEffect, useState } from "react";
 import { useParams, useNavigate } from "react-router-dom";
-import { getBlogPostBySlug } from "@/data/blogData";
+import { getBlogPostBySlug } from "@/data/blogRegistry";
 import { ReadingProgressBar } from "@/components/ReadingProgressBar";
 import { BlogPostContent } from "@/components/BlogPostContent";
 

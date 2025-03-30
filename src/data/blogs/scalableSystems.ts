@@ -26,10 +26,21 @@ This separation of concerns allows teams to work autonomously and makes the over
 
 The first step in building effective microservices is identifying the right service boundaries. This isn't primarily a technical decision but a business one.
 
-\`\`\`
+\`\`\`javascript
 // Example Domain-Driven Design approach
-// orderService handles order-related operations
-// inventoryService handles inventory-specific operations
+// Order service handles order-specific operations
+const orderService = {
+  placeOrder: (user, items) => { /* implementation */ },
+  cancelOrder: (orderId) => { /* implementation */ },
+  // Order-specific operations only
+};
+
+// Inventory service handles inventory-specific operations
+const inventoryService = {
+  checkAvailability: (itemId) => { /* implementation */ },
+  updateStock: (itemId, quantity) => { /* implementation */ },
+  // Inventory-specific operations only
+};
 \`\`\`
 
 Each service should encapsulate a single business capability, with its own data and logic.

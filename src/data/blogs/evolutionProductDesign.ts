@@ -14,7 +14,7 @@ The landscape of product design is experiencing a seismic shift, driven primaril
 
 Modern designers are increasingly partnering with AI tools that can generate layouts, suggest color palettes, and even create initial wireframes based on simple text prompts. These tools don't replace the designer but instead elevate their capabilities, handling repetitive tasks while allowing human creativity to focus on strategy and emotion.
 
-> "AI doesn't replace creativity; it amplifies it. The tools allow us to explore possibilities at unprecedented speed and scale." — Elena Castellano
+> "AI doesn't replace creativity; it amplifies it. The tools allow us to explore possibilities at unprecedented speed and scale." — Mrityunjay Srivastava
 
 ### Key Changes in Design Workflows
 

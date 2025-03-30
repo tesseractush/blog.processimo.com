@@ -1,6 +1,6 @@
 
 import { BlogCard } from "@/components/BlogCard";
-import { blogPosts } from "@/data/blogData";
+import { blogPosts } from "@/data/blogRegistry";
 import { Link } from "react-router-dom";
 
 const HomePage = () => {

@@ -101,7 +101,93 @@ export default {
 			backdropBlur: {
 				'xs': '2px',
 			},
+			typography: {
+				DEFAULT: {
+					css: {
+						maxWidth: '100%',
+						color: 'var(--tw-prose-body)',
+						'[class~="lead"]': {
+							color: 'var(--tw-prose-lead)',
+						},
+						a: {
+							color: 'var(--tw-prose-links)',
+							textDecoration: 'none',
+							fontWeight: '500',
+						},
+						'a:hover': {
+							textDecoration: 'underline',
+						},
+						strong: {
+							color: 'var(--tw-prose-bold)',
+							fontWeight: '600',
+						},
+						'ol[type="A"]': {
+							listStyleType: 'upper-alpha',
+						},
+						'ol[type="a"]': {
+							listStyleType: 'lower-alpha',
+						},
+						'ol[type="A" s]': {
+							listStyleType: 'upper-alpha',
+						},
+						'ol[type="a" s]': {
+							listStyleType: 'lower-alpha',
+						},
+						'ol[type="I"]': {
+							listStyleType: 'upper-roman',
+						},
+						'ol[type="i"]': {
+							listStyleType: 'lower-roman',
+						},
+						'ol[type="I" s]': {
+							listStyleType: 'upper-roman',
+						},
+						'ol[type="i" s]': {
+							listStyleType: 'lower-roman',
+						},
+						'ol[type="1"]': {
+							listStyleType: 'decimal',
+						},
+						'ol > li': {
+							position: 'relative',
+						},
+						'ul > li': {
+							position: 'relative',
+						},
+						blockquote: {
+							fontWeight: '500',
+							fontStyle: 'normal',
+							color: 'var(--tw-prose-quotes)',
+							borderLeftWidth: '0.25rem',
+							borderLeftColor: 'var(--tw-prose-quote-borders)',
+							quotes: '"\\201C""\\201D""\\2018""\\2019"',
+						},
+						'blockquote p:first-of-type::before': {
+							content: '',
+						},
+						'blockquote p:last-of-type::after': {
+							content: '',
+						},
+						code: {
+							color: 'var(--tw-prose-code)',
+							fontWeight: '600',
+						},
+						'code::before': {
+							content: '',
+						},
+						'code::after': {
+							content: '',
+						},
+						'pre code': {
+							fontFamily: 'var(--font-mono)',
+						},
+						'h1, h2, h3, h4, h5, h6': {
+							fontFamily: 'var(--font-serif)',
+						},
+					},
+				},
+			},
 		}
 	},
-	plugins: [require("tailwindcss-animate")],
+	plugins: [require("tailwindcss-animate"), require("@tailwindcss/typography")],
 } satisfies Config;

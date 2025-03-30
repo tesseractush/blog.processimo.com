@@ -1,6 +1,34 @@
 
 import { useEffect, useRef } from "react";
 import { marked } from "marked";
+import Prism from "prismjs";
+import "prismjs/themes/prism-tomorrow.css";
+import "prismjs/components/prism-javascript";
+import "prismjs/components/prism-typescript";
+import "prismjs/components/prism-jsx";
+import "prismjs/components/prism-tsx";
+import "prismjs/components/prism-css";
+import "prismjs/components/prism-markdown";
+import "prismjs/components/prism-json";
+import "prismjs/components/prism-bash";
+import "prismjs/components/prism-yaml";
+
+// Configure marked options
+marked.setOptions({
+  langPrefix: "language-",
+  gfm: true,
+  breaks: true,
+  pedantic: false,
+  sanitize: false,
+  smartLists: true,
+  smartypants: true,
+  highlight: function (code, language) {
+    if (language && Prism.languages[language]) {
+      return Prism.highlight(code, Prism.languages[language], language);
+    }
+    return code;
+  }
+});
 
 interface MarkdownRendererProps {
   content: string;
@@ -15,11 +43,10 @@ export function MarkdownRenderer({ content, className }: MarkdownRendererProps) 
       const html = marked(content);
       contentRef.current.innerHTML = html;
       
-      // Add any post-processing for syntax highlighting here if needed
-      // For example, if using Prism.js
-      // if (window.Prism) {
-      //   window.Prism.highlightAllUnder(contentRef.current);
-      // }
+      // Apply syntax highlighting
+      if (typeof Prism !== "undefined") {
+        Prism.highlightAllUnder(contentRef.current);
+      }
     }
   }, [content]);
 

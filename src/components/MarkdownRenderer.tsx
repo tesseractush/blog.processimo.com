@@ -18,7 +18,6 @@ marked.setOptions({
   gfm: true,
   breaks: true,
   pedantic: false,
-  mangle: false,
   highlight: function (code, language) {
     if (language && Prism.languages[language]) {
       return Prism.highlight(code, Prism.languages[language], language);
@@ -50,7 +49,7 @@ export function MarkdownRenderer({ content, className }: MarkdownRendererProps) 
   return (
     <div 
       ref={contentRef} 
-      className={`blog-content ${className || ""}`} 
+      className={`blog-content prose prose-lg dark:prose-invert max-w-none ${className || ""}`} 
     />
   );
 }

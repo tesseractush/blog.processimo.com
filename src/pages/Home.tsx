@@ -13,10 +13,10 @@ const HomePage = () => {
         <div className="container mx-auto max-w-6xl">
           <div className="text-center mb-16 animate-fade-in">
             <h1 className="text-5xl md:text-6xl font-serif font-medium mb-6 text-balance">
-              Thought-Provoking Insights for the Modern Professional
+              AI Insights for Tomorrow's Businesses
             </h1>
             <p className="text-xl text-muted-foreground max-w-2xl mx-auto">
-              Exploring ideas at the intersection of technology, design, and business strategy.
+              Exploring artificial intelligence advancements, startup innovation, and business automation strategies.
             </p>
           </div>
           
@@ -27,7 +27,7 @@ const HomePage = () => {
           )}
           
           <div className="flex flex-col md:flex-row items-center justify-between mb-12">
-            <h2 className="text-3xl font-serif font-medium">Latest Articles</h2>
+            <h2 className="text-3xl font-serif font-medium">Latest Insights</h2>
             <Link
               to="/blog"
               className="mt-4 md:mt-0 inline-flex items-center text-primary hover:text-primary/80 transition-colors"
@@ -62,9 +62,9 @@ const HomePage = () => {
       <section className="py-16 px-6 bg-muted/50">
         <div className="container mx-auto max-w-6xl">
           <div className="text-center mb-12">
-            <h2 className="text-3xl font-serif font-medium mb-4">Subscribe to Our Newsletter</h2>
+            <h2 className="text-3xl font-serif font-medium mb-4">Get AI Insights First</h2>
             <p className="text-muted-foreground max-w-xl mx-auto">
-              Get the latest articles, insights, and updates delivered directly to your inbox.
+              Subscribe for the latest breakthroughs in AI, startup strategies, and business automation techniques.
             </p>
           </div>
           

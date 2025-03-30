@@ -15,7 +15,6 @@ import "prismjs/components/prism-yaml";
 
 // Configure marked options
 marked.setOptions({
-  langPrefix: "language-",
   gfm: true,
   breaks: true,
   pedantic: false,

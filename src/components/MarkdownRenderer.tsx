@@ -18,7 +18,7 @@ marked.setOptions({
   gfm: true,
   breaks: true,
   pedantic: false,
-  smartypants: true,
+  mangle: false,
   highlight: function (code, language) {
     if (language && Prism.languages[language]) {
       return Prism.highlight(code, Prism.languages[language], language);

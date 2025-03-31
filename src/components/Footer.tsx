@@ -49,11 +49,7 @@ export function Footer() {
               Stay up to date with our latest posts and updates.
             </p>
             <div className="flex">
-              <input
-                type="email"
-                placeholder="Your email"
-                className="rounded-l-md px-4 py-2 text-sm bg-muted border border-border focus:outline-none focus:ring-1 focus:ring-primary"
-              />
+              
               <button className="bg-primary text-primary-foreground rounded-r-md px-4 py-2 text-sm font-medium transition-colors hover:bg-primary/90">
                 Subscribe
               </button>

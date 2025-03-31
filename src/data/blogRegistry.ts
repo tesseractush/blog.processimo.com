@@ -10,6 +10,11 @@ import { startupMLOpsPost } from "./blogs/startupMLOps";
 import { agileAIPost } from "./blogs/agileAI";
 import { automationWorkflowPost } from "./blogs/automationWorkflow";
 import { startupAIToolsPost } from "./blogs/startupAITools";
+import { explainableAIPost } from "./blogs/explainableAI";
+import { quantumMachineLearningPost } from "./blogs/quantumMachineLearning";
+import { aiHealthcarePost } from "./blogs/aiHealthcare";
+import { naturalLanguageProcessingPost } from "./blogs/naturalLanguageProcessing";
+import { computerVisionPost } from "./blogs/computerVision";
 
 // Add all blog posts to this array
 export const blogPosts: BlogPost[] = [
@@ -22,7 +27,12 @@ export const blogPosts: BlogPost[] = [
   startupMLOpsPost,
   agileAIPost,
   automationWorkflowPost,
-  startupAIToolsPost
+  startupAIToolsPost,
+  explainableAIPost,
+  quantumMachineLearningPost,
+  aiHealthcarePost,
+  naturalLanguageProcessingPost,
+  computerVisionPost
 ];
 
 export function getBlogPostBySlug(slug: string): BlogPost | undefined {

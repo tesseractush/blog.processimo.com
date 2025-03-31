@@ -65,12 +65,12 @@ export function Footer() {
             © {currentYear} Processimo. All rights reserved.
           </p>
           <div className="flex items-center space-x-4 mt-4 sm:mt-0">
-            <a href="#" className="text-muted-foreground hover:text-foreground transition-colors">
+            <Link to="/privacy" className="text-muted-foreground hover:text-foreground transition-colors">
               Privacy
-            </a>
-            <a href="#" className="text-muted-foreground hover:text-foreground transition-colors">
+            </Link>
+            <Link to="/terms" className="text-muted-foreground hover:text-foreground transition-colors">
               Terms
-            </a>
+            </Link>
           </div>
         </div>
       </div>

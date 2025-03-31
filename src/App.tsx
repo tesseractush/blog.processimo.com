@@ -11,6 +11,8 @@ import HomePage from "./pages/Home";
 import BlogsPage from "./pages/Blog";
 import BlogPostPage from "./pages/BlogPost";
 import AboutPage from "./pages/About";
+import PrivacyPage from "./pages/Privacy";
+import TermsPage from "./pages/Terms";
 import NotFound from "./pages/NotFound";
 
 const queryClient = new QueryClient();
@@ -29,6 +31,8 @@ const App = () => (
               <Route path="/blogs" element={<BlogsPage />} />
               <Route path="/blog/:slug" element={<BlogPostPage />} />
               <Route path="/about" element={<AboutPage />} />
+              <Route path="/privacy" element={<PrivacyPage />} />
+              <Route path="/terms" element={<TermsPage />} />
               <Route path="*" element={<NotFound />} />
             </Routes>
           </main>

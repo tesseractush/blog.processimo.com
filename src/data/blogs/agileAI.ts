@@ -180,7 +180,7 @@ Adapting agile methodologies for AI product development requires thoughtful evol
 Organizations that strike this balance create environments where data scientists and engineers can collaboratively explore AI's possibilities while delivering tangible business value on predictable schedules. As AI becomes increasingly central to product strategies, these evolved methodologies will become essential for maintaining competitive advantage.
   `,
   cover: "https://images.unsplash.com/photo-1552664730-d307ca884978?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=1740&q=80",
-  publishedAt: "2024-03-15T11:20:00Z",
+  publishedAt: "2025-03-15T11:20:00Z",
   readingTime: 9,
   authorId: "2",
   tags: ["Agile", "Product Development", "AI", "Project Management"],

@@ -59,7 +59,7 @@ async function processInvoice(invoiceFile) {
   const response = await fetch('https://api.documentprocessor.ai/v1/extract', {
     method: 'POST',
     headers: {
-      'Authorization': `Bearer ${apiKey}`,
+      'Authorization': 'Bearer ' + apiKey,
       'Content-Type': 'application/json'
     },
     body: JSON.stringify({

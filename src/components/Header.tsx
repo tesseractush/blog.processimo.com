@@ -38,7 +38,7 @@ export function Header() {
               Home
             </Link>
             <Link
-              to="/blog"
+              to="/blogs"
               className="text-sm font-medium text-foreground/80 hover:text-foreground transition-colors"
             >
               Blog

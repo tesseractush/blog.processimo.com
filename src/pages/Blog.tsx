@@ -1,4 +1,3 @@
-
 import { useState } from "react";
 import { BlogCard } from "@/components/BlogCard";
 import { blogPosts } from "@/data/blogRegistry";
@@ -12,11 +11,10 @@ const CATEGORIES = [
 
 const ALL_TAGS = Array.from(new Set(blogPosts.flatMap(post => post.tags))).sort();
 
-const BlogPage = () => {
+const BlogsPage = () => {
   const [activeCategory, setActiveCategory] = useState<string>("all");
   const [activeTag, setActiveTag] = useState<string | null>(null);
   
-  // Sort posts by date (newest first)
   const sortedPosts = [...blogPosts].sort(
     (a, b) => new Date(b.publishedAt).getTime() - new Date(a.publishedAt).getTime()
   );
@@ -117,4 +115,4 @@ const BlogPage = () => {
   );
 };
 
-export default BlogPage;
+export default BlogsPage;

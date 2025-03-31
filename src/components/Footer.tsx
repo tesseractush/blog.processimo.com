@@ -1,6 +1,6 @@
 
 import { Link } from "react-router-dom";
-import { Cpu, Database } from "lucide-react";
+import { Bot, Cpu, Database } from "lucide-react";
 
 export function Footer() {
   const currentYear = new Date().getFullYear();
@@ -11,7 +11,7 @@ export function Footer() {
         <div className="grid grid-cols-1 md:grid-cols-3 gap-10">
           <div>
             <h3 className="font-serif text-xl mb-4 flex items-center gap-2">
-              <Cpu className="h-5 w-5" />
+              <Bot className="h-5 w-5" />
               Processimo
             </h3>
             <p className="text-sm text-muted-foreground max-w-xs">
@@ -43,16 +43,17 @@ export function Footer() {
           <div>
             <h4 className="font-medium text-sm uppercase tracking-wider text-muted-foreground mb-4 flex items-center gap-2">
               <Database className="h-4 w-4" />
-              Subscribe
+              Subscribe to our Newsletter
             </h4>
             <p className="text-sm text-muted-foreground mb-4">
               Stay up to date with our latest posts and updates.
             </p>
             <div className="flex">
-              
-              <button className="bg-primary text-primary-foreground rounded-r-md px-4 py-2 text-sm font-medium transition-colors hover:bg-primary/90">
+              <a href="https://app.youform.com/forms/1xlqvc4t">
+              <button className="bg-black/90 backdrop-blur-sm text-white px-4 py-2 rounded-md transition-colors hover:bg-white/20 hover:text-black">
                 Subscribe
               </button>
+              </a>
             </div>
           </div>
         </div>

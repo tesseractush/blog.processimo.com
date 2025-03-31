@@ -72,7 +72,7 @@ const TermsPage = () => {
           </p>
           <p className="mt-2">
             <strong>Email:</strong> legal@processimo.com<br />
-            <strong>Address:</strong> 123 Automation Avenue, Tech City, 94123
+            <strong>Address:</strong> New Delhi
           </p>
         </div>
       </div>

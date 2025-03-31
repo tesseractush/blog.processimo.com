@@ -73,17 +73,14 @@ const HomePage = () => {
             </p>
           </div>
           
-          <div className="max-w-md mx-auto">
-            <div className="flex">
-              <input
-                type="email"
-                placeholder="Your email address"
-                className="flex-1 rounded-l-md px-4 py-3 border border-border focus:outline-none focus:ring-1 focus:ring-primary bg-background"
-              />
-              <button className="rounded-r-md bg-primary text-primary-foreground px-6 py-3 font-medium hover:bg-primary/90 transition-colors">
+          <div className="max-w-md mx-auto text-center">
+            
+              <a href="https://app.youform.com/forms/1xlqvc4t">
+              <button className="bg-black/90 backdrop-blur-sm text-white px-8 py-3 rounded-md transition-colors hover:bg-white/20 hover:text-black ">
                 Subscribe
               </button>
-            </div>
+              </a>
+            
             <p className="text-xs text-muted-foreground mt-2 text-center">
               We respect your privacy. Unsubscribe at any time.
             </p>

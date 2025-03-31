@@ -223,9 +223,9 @@ Workflow automation represents one of the most significant opportunities for ope
 The most successful automation initiatives recognize that technology is only one component of effective automation. Equally important are the organizational capabilities, governance structures, and cultural elements that enable continuous improvement of automated workflows over time.
   `,
   cover: "https://images.unsplash.com/photo-1518362165401-1c3d3d3bdbe7?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=1740&q=80",
-  publishedAt: "2024-03-08T16:00:00Z",
+  publishedAt: "2025-03-08T16:00:00Z",
   readingTime: 12,
-  authorId: "3",
+  authorId: "1",
   tags: ["Automation", "Workflow", "Digital Transformation", "Process Optimization"],
   slug: "workflow-automation-strategy-implementation"
 };

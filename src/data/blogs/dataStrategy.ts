@@ -165,7 +165,7 @@ An effective data strategy forms the foundation for successful AI implementation
 The most successful organizations recognize that becoming AI-ready is a journey rather than a destination, requiring ongoing evolution of their data strategy as technologies advance and business needs change. By establishing strong fundamentals today, they create the flexibility to adapt to tomorrow's AI innovations.
   `,
   cover: "https://images.unsplash.com/photo-1551288049-bebda4e38f71?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=1740&q=80",
-  publishedAt: "2024-03-28T08:00:00Z",
+  publishedAt: "2025-03-28T08:00:00Z",
   readingTime: 11,
   authorId: "1",
   tags: ["Data Strategy", "AI", "Enterprise", "Data Architecture"],

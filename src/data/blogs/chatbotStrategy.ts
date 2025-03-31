@@ -143,7 +143,7 @@ Implementing enterprise-grade conversational AI requires a thoughtful approach t
 The most successful implementations recognize that conversational AI is not merely a technology project but a business transformation initiative that requires cross-functional collaboration, executive support, and a commitment to ongoing improvement.
   `,
   cover: "https://images.unsplash.com/photo-1589254065878-42c9da997008?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=1740&q=80",
-  publishedAt: "2024-04-05T09:15:00Z",
+  publishedAt: "2025-02-05T09:15:00Z",
   readingTime: 10,
   authorId: "1",
   tags: ["AI", "Chatbots", "Enterprise", "Customer Experience"],

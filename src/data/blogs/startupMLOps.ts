@@ -172,9 +172,9 @@ Startups don't need enterprise-scale MLOps to succeed with machine learning. By 
 The key is pragmatism: implementing just enough MLOps to ensure reliable operation while maintaining the agility that gives startups their advantage. As the organization grows and ML becomes more central to the business, the MLOps practices can evolve in parallel, adding sophistication where it creates the most value.
   `,
   cover: "https://images.unsplash.com/photo-1591453089816-0fbb971b454c?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=1740&q=80",
-  publishedAt: "2024-03-22T13:45:00Z",
+  publishedAt: "2025-03-22T13:45:00Z",
   readingTime: 10,
-  authorId: "2",
+   authorId: "1",
   tags: ["MLOps", "Startups", "Machine Learning", "DevOps"],
   slug: "mlops-startups-budget"
 };

@@ -206,9 +206,9 @@ The most successful implementations will be those that:
 With these principles in mind, NLP will continue to transform how organizations understand, create, and leverage textual information in increasingly powerful ways.
   `,
   cover: "https://images.unsplash.com/photo-1677442136019-21780ecad995?ixlib=rb-4.0.3&auto=format&fit=crop&w=1932&q=80",
-  publishedAt: "2023-09-27T14:20:00Z",
+  publishedAt: "2025-03-27T14:20:00Z",
   readingTime: 12,
-  authorId: "2",
+   authorId: "1",
   tags: ["NLP", "AI", "Machine Learning", "Language Models", "Enterprise"],
   slug: "evolution-natural-language-processing"
 };

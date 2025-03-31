@@ -77,9 +77,9 @@ Content strategy for emerging platforms requires both tactical flexibility and s
 The most successful brands don't chase every new platform—they thoughtfully evaluate which emerging channels align with their audience and message, then adapt their approach accordingly.
   `,
   cover: "https://images.unsplash.com/photo-1557426272-fc759fdf7a8d?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=1740&q=80",
-  publishedAt: "2024-04-15T09:45:00Z",
+  publishedAt: "2025-03-15T09:45:00Z",
   readingTime: 7,
-  authorId: "3",
+   authorId: "1",
   tags: ["Marketing", "Content", "Digital Strategy"],
   slug: "content-strategy-emerging-platforms"
 };

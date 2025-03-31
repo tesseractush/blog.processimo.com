@@ -116,7 +116,7 @@ Explainable AI represents a crucial evolution in artificial intelligence—one t
 The most successful AI implementations of the future will likely be those that not only make accurate predictions but do so in ways that build trust through clear, meaningful explanations of their reasoning.
   `,
   cover: "https://images.unsplash.com/photo-1516110833967-0b5716ca1387?ixlib=rb-4.0.3&auto=format&fit=crop&w=1740&q=80",
-  publishedAt: "2023-09-25T10:00:00Z",
+  publishedAt: "2025-03-25T10:00:00Z",
   readingTime: 11,
   authorId: "1",
   tags: ["AI", "Explainable AI", "Ethics", "Machine Learning", "Enterprise"],

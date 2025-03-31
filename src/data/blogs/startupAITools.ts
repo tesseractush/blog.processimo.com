@@ -236,9 +236,9 @@ AI tools offer early-stage startups unprecedented opportunities to operate effic
 The most successful implementations focus on practical applications with clear ROI rather than cutting-edge technological experimentation. For resource-constrained startups, this pragmatic approach to AI adoption can create significant competitive advantages while conserving capital for core business growth.
   `,
   cover: "https://images.unsplash.com/photo-1519389950473-47ba0277781c?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=1740&q=80",
-  publishedAt: "2024-03-02T10:00:00Z",
+  publishedAt: "2025-03-02T10:00:00Z",
   readingTime: 10,
-  authorId: "2",
+   authorId: "1",
   tags: ["Startups", "AI Tools", "Productivity", "Growth"],
   slug: "essential-ai-tools-early-stage-startups"
 };

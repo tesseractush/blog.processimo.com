@@ -219,7 +219,7 @@ Organizations that successfully implement computer vision will typically follow 
 As computer vision technology continues to mature, it will increasingly become an invisible but essential component of systems that anticipate needs, enhance safety, improve efficiency, and create new forms of value across the physical and digital worlds.
   `,
   cover: "https://images.unsplash.com/photo-1527430253228-e93688616381?ixlib=rb-4.0.3&auto=format&fit=crop&w=1734&q=80",
-  publishedAt: "2023-09-28T15:00:00Z",
+  publishedAt: "2025-03-28T15:00:00Z",
   readingTime: 12,
   authorId: "1",
   tags: ["Computer Vision", "AI", "Image Recognition", "Deep Learning"],

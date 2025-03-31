@@ -69,7 +69,7 @@ The integration of AI into product design is accelerating, with several emerging
 As we move into this new era, the most successful product teams—whether in nimble startups or established enterprises—will be those who view AI not as a replacement but as a collaborative force that amplifies human creativity and accelerates business growth through superior product experiences.
   `,
   cover: "https://images.unsplash.com/photo-1677442135130-1269bb7b42f6?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=1740&q=80",
-  publishedAt: "2024-05-03T10:30:00Z",
+  publishedAt: "2025-03-03T10:30:00Z",
   readingTime: 7,
   authorId: "1",
   tags: ["AI", "Product Design", "Startups"],

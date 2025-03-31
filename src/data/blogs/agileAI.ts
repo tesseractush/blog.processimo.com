@@ -182,7 +182,7 @@ Organizations that strike this balance create environments where data scientists
   cover: "https://images.unsplash.com/photo-1552664730-d307ca884978?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=1740&q=80",
   publishedAt: "2025-03-15T11:20:00Z",
   readingTime: 9,
-  authorId: "2",
+  authorId: "1",
   tags: ["Agile", "Product Development", "AI", "Project Management"],
   slug: "agile-methodologies-ai-product-development"
 };

@@ -161,9 +161,9 @@ Organizations interested in staying at the forefront of this field should consid
 As quantum hardware continues to mature and algorithms become more sophisticated, we can expect quantum machine learning to move from research labs to production environments, potentially transforming industries and enabling scientific breakthroughs that were previously unimaginable.
   `,
   cover: "https://images.unsplash.com/photo-1635070041078-e363dbe005cb?ixlib=rb-4.0.3&auto=format&fit=crop&w=1740&q=80",
-  publishedAt: "2023-09-24T09:30:00Z",
+  publishedAt: "2025-03-24T09:30:00Z",
   readingTime: 12,
-  authorId: "2",
+   authorId: "1",
   tags: ["Quantum Computing", "Machine Learning", "AI", "Emerging Technology"],
   slug: "quantum-machine-learning-next-computing-frontier"
 };

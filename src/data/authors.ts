@@ -5,7 +5,7 @@ export const authors: Author[] = [
   {
     id: "1",
     name: "Mrityunjay Srivastava",
-    avatar: "https://github.com/tesseractush/portfolio/blob/main/tushar.jpeg",
+    avatar: "https://github.com/tesseractush/portfolio/blob/main/tushar.jpeg?raw=true",
     bio: "Startup Founder and Tech Entrepreneur specializing in AI-driven solutions for emerging markets and business automation."
     
   }

@@ -6,7 +6,7 @@ export const authors: Author[] = [
     id: "1",
     name: "Mrityunjay Srivastava",
     avatar: "https://images.unsplash.com/photo-1494790108377-be9c29b29330?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=256&q=80",
-    bio: "AI Research Director with over 10 years of experience in machine learning and artificial intelligence applications for business transformation."
+    
   },
   {
     id: "2",

@@ -14,7 +14,7 @@ const BlogPostPage = () => {
   
   useEffect(() => {
     if (!post && slug) {
-      navigate("/blog", { replace: true });
+      navigate("/blogs", { replace: true });
       return;
     }
     

@@ -26,7 +26,7 @@ const App = () => (
           <main className="min-h-screen pt-16">
             <Routes>
               <Route path="/" element={<HomePage />} />
-              <Route path="/blog" element={<BlogPage />} />
+              <Route path="/blogs" element={<BlogPage />} />
               <Route path="/blog/:slug" element={<BlogPostPage />} />
               <Route path="/about" element={<AboutPage />} />
               <Route path="*" element={<NotFound />} />

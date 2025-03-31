@@ -1,12 +1,13 @@
+
 import { useState } from "react";
 import { BlogCard } from "@/components/BlogCard";
 import { blogPosts } from "@/data/blogRegistry";
 
 const CATEGORIES = [
   { id: "all", name: "All Topics" },
-  { id: "ai", name: "AI Advancements", tags: ["AI", "Machine Learning", "Neural Networks", "GPT", "Computer Vision"] },
-  { id: "startups", name: "Startup Strategies", tags: ["Startups", "Funding", "Growth", "Innovation", "Venture Capital"] },
-  { id: "automation", name: "Business Automation", tags: ["Automation", "Workflow", "Productivity", "Digital Transformation"] }
+  { id: "ai", name: "AI Advancements", tags: ["AI", "Machine Learning", "Neural Networks", "GPT", "Computer Vision", "NLP", "Deep Learning"] },
+  { id: "startups", name: "Startup Strategies", tags: ["Startups", "Funding", "Growth", "Innovation", "Venture Capital", "Entrepreneurship", "Strategy"] },
+  { id: "automation", name: "Business Automation", tags: ["Automation", "Workflow", "Productivity", "Digital Transformation", "RPA", "Process Optimization"] }
 ];
 
 const ALL_TAGS = Array.from(new Set(blogPosts.flatMap(post => post.tags))).sort();
@@ -15,7 +16,12 @@ const BlogPage = () => {
   const [activeCategory, setActiveCategory] = useState<string>("all");
   const [activeTag, setActiveTag] = useState<string | null>(null);
   
-  const filteredPosts = blogPosts.filter(post => {
+  // Sort posts by date (newest first)
+  const sortedPosts = [...blogPosts].sort(
+    (a, b) => new Date(b.publishedAt).getTime() - new Date(a.publishedAt).getTime()
+  );
+  
+  const filteredPosts = sortedPosts.filter(post => {
     if (activeTag) {
       return post.tags.includes(activeTag);
     }

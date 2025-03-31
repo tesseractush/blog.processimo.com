@@ -4,8 +4,13 @@ import { blogPosts } from "@/data/blogRegistry";
 import { Link } from "react-router-dom";
 
 const HomePage = () => {
-  const featuredPost = blogPosts[0];
-  const recentPosts = blogPosts.slice(1, 4);
+  // Sort posts by date (newest first)
+  const sortedPosts = [...blogPosts].sort(
+    (a, b) => new Date(b.publishedAt).getTime() - new Date(a.publishedAt).getTime()
+  );
+  
+  const featuredPost = sortedPosts[0];
+  const recentPosts = sortedPosts.slice(1, 4);
 
   return (
     <>
@@ -29,7 +34,7 @@ const HomePage = () => {
           <div className="flex flex-col md:flex-row items-center justify-between mb-12">
             <h2 className="text-3xl font-serif font-medium">Latest Insights</h2>
             <Link
-              to="/blog"
+              to="/blogs"
               className="mt-4 md:mt-0 inline-flex items-center text-primary hover:text-primary/80 transition-colors"
             >
               View all articles

@@ -10,58 +10,79 @@ const AboutPage = () => {
             About Processimo
           </h1>
           <p className="text-xl text-muted-foreground max-w-2xl mx-auto">
-            A luxury blog platform publishing thought-provoking content on technology, design, and business.
+            Building intelligent AI agents and automation tools to transform your business workflows.
           </p>
         </div>
         
         <div className="prose prose-lg dark:prose-invert max-w-none animate-slide-in">
           <p>
-            Processimo was founded with a simple yet ambitious mission: to create a premium space for thoughtful discourse on the ideas shaping our digital future. In a world of fleeting content and diminishing attention spans, we believe in the value of deep, considered writing that respects the reader's intelligence.
+            At Processimo, we specialize in developing cutting-edge AI agents and automation solutions that streamline complex business processes. Our mission is to help organizations harness the power of artificial intelligence to achieve unprecedented levels of efficiency and innovation.
           </p>
           
-          <h2>Our Philosophy</h2>
+          <h2>Our AI Solutions</h2>
           
           <p>
-            We believe that the best content comes from a place of genuine curiosity and expertise. Our contributors aren't just writers—they're practitioners, researchers, and innovators in their fields. They bring firsthand experience and nuanced perspectives to complex topics.
-          </p>
-          
-          <p>
-            While we embrace technology and innovation, we maintain that human insight and critical thinking remain irreplaceable. Our platform balances cutting-edge technical capabilities with thoughtful human curation.
-          </p>
-          
-          <h2>The Reading Experience</h2>
-          
-          <p>
-            We've designed Processimo with the reader experience as our highest priority. From typography choices to subtle animations, every element has been carefully considered to create an immersive, distraction-free environment for engaging with ideas.
+            We build custom AI agents designed to address specific business challenges across industries. From intelligent document processing to advanced customer support systems, our solutions are tailored to integrate seamlessly with your existing workflows while dramatically enhancing their capabilities.
           </p>
           
           <p>
-            Our commitment to a superior reading experience extends beyond aesthetics—we invest in performance optimization to ensure content loads quickly and responsively across all devices.
+            Our team combines deep expertise in machine learning, natural language processing, and business process automation to create intelligent systems that learn and improve over time, delivering increasing value to your organization.
           </p>
           
-          <h2>Join Our Community</h2>
+          <h2>Automation Platform</h2>
           
           <p>
-            Processimo is more than a publication—it's a community of curious minds. We invite you to join the conversation by subscribing to our newsletter, engaging with our content, and connecting with our contributors.
+            Our enterprise-grade automation platform empowers businesses to identify, design, and implement automated workflows that reduce manual effort and minimize errors. We focus on creating user-friendly interfaces that make advanced automation accessible to team members across your organization.
+          </p>
+          
+          <p>
+            Whether you're looking to automate routine tasks or complex multi-step processes, our platform provides the flexibility and reliability needed for successful digital transformation initiatives.
+          </p>
+          
+          <h2>AI Agent Marketplace</h2>
+          
+          <p>
+            Explore our marketplace of pre-built AI agents ready for immediate deployment. These battle-tested solutions cover common business needs and can be implemented quickly to deliver rapid ROI:
+          </p>
+          
+          <ul>
+            <li>Intelligent document processing and data extraction</li>
+            <li>Customer support and engagement automation</li>
+            <li>Sales and marketing AI assistants</li>
+            <li>Financial analysis and reporting agents</li>
+            <li>HR and recruitment process automation</li>
+            <li>Supply chain and logistics optimization</li>
+          </ul>
+          
+          <p>
+            Each agent in our marketplace can be customized to meet your specific requirements or used as-is for standard implementations.
           </p>
           
           <div className="my-10 flex justify-center">
             <Link
-              to="/blog"
+              to="/blogs"
               className="inline-flex items-center justify-center rounded-md bg-primary px-6 py-3 text-primary-foreground hover:bg-primary/90 transition-colors"
             >
-              Explore Our Blog
+              Explore Our Insights
             </Link>
           </div>
           
-          <h2>Our Team</h2>
+          <h2>Our Approach</h2>
           
           <p>
-            Processimo is made possible by a dedicated team passionate about quality content and exceptional user experiences. Our editors, designers, and developers work together to create a platform that serves both readers and writers.
+            We believe in a collaborative approach, working closely with our clients to understand their unique challenges and design solutions that deliver measurable business value. Our implementation process includes:
           </p>
           
+          <ol>
+            <li>In-depth process analysis and opportunity identification</li>
+            <li>Custom solution design aligned with business objectives</li>
+            <li>Agile development and iterative refinement</li>
+            <li>Comprehensive training and change management support</li>
+            <li>Ongoing optimization and performance monitoring</li>
+          </ol>
+          
           <p>
-            We're always looking for talented contributors and team members who share our values. If you're interested in joining us, please reach out at team@processimo.com.
+            Ready to transform your business with intelligent automation? Contact our team at team@processimo.com to discuss your specific needs and explore how our AI agents and automation tools can drive your success.
           </p>
         </div>
       </div>

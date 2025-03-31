@@ -18,12 +18,7 @@ marked.setOptions({
   gfm: true,
   breaks: true,
   pedantic: false,
-  highlight: function (code, language) {
-    if (language && Prism.languages[language]) {
-      return Prism.highlight(code, Prism.languages[language], language);
-    }
-    return code;
-  }
+  mangle: false
 });
 
 interface MarkdownRendererProps {

@@ -1,5 +1,6 @@
 
 import { Link } from "react-router-dom";
+import { Cpu, Database } from "lucide-react";
 
 export function Footer() {
   const currentYear = new Date().getFullYear();
@@ -9,9 +10,12 @@ export function Footer() {
       <div className="container mx-auto">
         <div className="grid grid-cols-1 md:grid-cols-3 gap-10">
           <div>
-            <h3 className="font-serif text-xl mb-4">Processimo</h3>
+            <h3 className="font-serif text-xl mb-4 flex items-center gap-2">
+              <Cpu className="h-5 w-5" />
+              Processimo
+            </h3>
             <p className="text-sm text-muted-foreground max-w-xs">
-              A luxury blog platform for thoughtful content and immersive reading experiences.
+              Empowering businesses with intelligent automation solutions to streamline workflows, increase efficiency, and drive digital transformation.
             </p>
           </div>
           <div>
@@ -25,7 +29,7 @@ export function Footer() {
                 </Link>
               </li>
               <li>
-                <Link to="/blog" className="text-sm text-foreground/80 hover:text-foreground transition-colors">
+                <Link to="/blogs" className="text-sm text-foreground/80 hover:text-foreground transition-colors">
                   Blog
                 </Link>
               </li>
@@ -37,7 +41,8 @@ export function Footer() {
             </ul>
           </div>
           <div>
-            <h4 className="font-medium text-sm uppercase tracking-wider text-muted-foreground mb-4">
+            <h4 className="font-medium text-sm uppercase tracking-wider text-muted-foreground mb-4 flex items-center gap-2">
+              <Database className="h-4 w-4" />
               Subscribe
             </h4>
             <p className="text-sm text-muted-foreground mb-4">

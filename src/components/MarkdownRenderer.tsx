@@ -17,8 +17,7 @@ import "prismjs/components/prism-yaml";
 marked.setOptions({
   gfm: true,
   breaks: true,
-  pedantic: false,
-  mangle: false
+  pedantic: false
 });
 
 interface MarkdownRendererProps {

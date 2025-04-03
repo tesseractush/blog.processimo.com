@@ -179,7 +179,7 @@ The most successful AI healthcare implementations will be those that:
 
 As these technologies mature, we can expect AI to become an increasingly essential component of healthcare delivery, working alongside human providers to achieve levels of quality, efficiency, and personalization previously impossible.
   `,
-  cover: "https://images.unsplash.com/photo-1576671414121-aa2d0339a0c9?ixlib=rb-4.0.3&auto=format&fit=crop&w=1740&q=80",
+  cover: "https://images.unsplash.com/photo-1607619056574-7b8d3ee536b2?q=80&w=1240&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D",
   publishedAt: "2025-03-26T11:15:00Z",
   readingTime: 13,
   authorId: "1",

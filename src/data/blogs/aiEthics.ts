@@ -112,7 +112,7 @@ As AI becomes more deeply embedded in business processes, ethical considerations
 
 The most successful enterprise AI deployments will be those that balance technological capabilities with thoughtful consideration of impacts on all stakeholders—creating systems that are not only intelligent but also aligned with core human values.
   `,
-  cover: "https://diplo-media.s3.eu-central-1.amazonaws.com/2024/10/ethics-AI.webp",
+  cover: "GitHub.com/tesseractush/blog.processimo.com/images/aiethics.jpg?raw=true",
   publishedAt: "2025-03-10T14:30:00Z",
   readingTime: 9,
   authorId: "1",
